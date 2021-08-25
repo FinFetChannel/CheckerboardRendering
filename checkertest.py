@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 frame0 = cv2.imread('2.png').astype('int') # current frame
-frame00 = cv2.imread('11.png').astype('int') # previous frame 
+frame00 = cv2.imread('1.png').astype('int') # previous frame 
 
 height, width = frame0.shape[0], frame0.shape[1]
 
